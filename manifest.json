@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Edge Tab Redirect",
+  "version": "1.0",
+  "description": "Redirects new tab to Google.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {},
+  "permissions": []
+}
